@@ -1,0 +1,10 @@
+# model weights are large (100s of MB) and not tracked in git
+models/*.npz
+!models/.gitkeep
+
+__pycache__/
+*.pyc
+._*
+.DS_Store
+
+*.log
