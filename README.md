@@ -39,10 +39,8 @@ python serve.py --port 8080                  # different port
 
 ## Getting model files
 
-Pip checkpoints are produced by the training project (`homemade-llm`) via
-`save_ax0()` / `convert_mlx_to_numpy.py`. Copy the resulting `*_numpy.npz` (or any
-`ax0_pip.npz`) into `models/`. Weights are **not** committed to git (they're large);
-`models/` is gitignored except for the placeholder.
+Download Pip model files from **[huggingface.co/ax0rz0/models](https://huggingface.co/ax0rz0/models)**
+and drop the `*.npz` files into the `models/` folder.
 
 Tuning: lower the **temp** slider (~0.3–0.4) for the most coherent replies — these
 are tiny models, so keep prompts light.
