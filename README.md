@@ -57,3 +57,7 @@ are tiny models, so keep prompts light.
 | `tokenizer.py` | byte-level BPE + `<user>/<pip>/<end>` chat protocol |
 | `optim.py` | optimizer (support file) |
 | `models/` | drop your `*.npz` Pip checkpoints here |
+
+## License
+
+Released under the **GNU General Public License v3.0** — see [LICENSE](LICENSE).
